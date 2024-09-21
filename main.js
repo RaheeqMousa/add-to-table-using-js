@@ -16,4 +16,4 @@ for(var i=0;i<names.length;i++){
     data+=`<tr><td>${names[i]}</td></tr>`
 }
 
-document.querySelector("table").innerHTML=data;
+document.querySelector("table tbody").innerHTML+=data;
